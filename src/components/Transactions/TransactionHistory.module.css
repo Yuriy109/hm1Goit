@@ -1,0 +1,40 @@
+.firstCon {
+  display: inline-block;
+  border-radius: 5%;
+  border: 5px solid white;
+  width: 440px;
+  height: 620px;
+  margin-top: 50px;
+}
+
+.container {
+ 
+  display: flex;
+  justify-content: center;
+}
+
+.th {
+  font-size: 18px;
+  padding: 40px;
+  color: black;
+}
+
+.th:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+  transition: background-color .3s linear;
+}
+.thead {
+  background-color: white;
+}
+
+.tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  border: 1px solid white;
+}
+
+.td {
+  margin-top: 15px;
+}
